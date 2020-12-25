@@ -102,3 +102,37 @@ console.log(convert(6), 360)
 console.log(convert(4), 240)
 console.log(convert(8), 480)
 console.log(convert(60), 3600)
+
+// Create a function that takes length and width and finds the perimeter of a rectangle.
+
+function findPerimeter(length, width) {
+    return (length * 2) + (width * 2);
+}
+
+console.log(findPerimeter(6, 7), 26)
+console.log(findPerimeter(20, 10), 60)
+console.log(findPerimeter(2, 9), 22)
+
+// Write a function that takes the base and height of a triangle and return its area.
+
+function triArea(base, height) {
+    return (base * height) / 2;
+}
+
+console.log(triArea(3, 2), 3)
+console.log(triArea(5, 4), 10)
+console.log(triArea(10, 10), 50)
+console.log(triArea(0, 60), 0)
+console.log(triArea(12, 11), 66)
+
+// You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+
+function points(twoPointers, threePointers) {
+    return (twoPointers * 2) + (threePointers * 3);
+}
+
+console.log(points(1, 1), 5)
+console.log(points(1, 2), 8)
+console.log(points(2, 1), 7)
+console.log(points(2, 2), 10)
+console.log(points(69, 420), 1398)
