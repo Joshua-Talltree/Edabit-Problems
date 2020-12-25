@@ -91,3 +91,14 @@ function hello() {
 }
 
 console.log(hello(), "hello edabit.com", "Did you *return* the result?")
+
+// Write a function that takes an integer minutes and converts it to seconds.
+
+function convert(minutes) {
+    return minutes * 60;
+}
+
+console.log(convert(6), 360)
+console.log(convert(4), 240)
+console.log(convert(8), 480)
+console.log(convert(60), 3600)
