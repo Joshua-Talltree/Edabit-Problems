@@ -171,5 +171,18 @@ console.log(lessThanOrEqualToZero(5), false)
 console.log(lessThanOrEqualToZero(0), true)
 console.log(lessThanOrEqualToZero(-5), true)
 
+// Create a function that returns true if a string is empty and false otherwise.
+
+function isEmpty(s) {
+    return s === "";
+}
+
+console.log(isEmpty(""), true)
+console.log(isEmpty(" "), false)
+console.log(isEmpty("            "), false)
+console.log(isEmpty("38215"), false)
+console.log(isEmpty("afjabsdf"), false)
+console.log(isEmpty("!?@&"), false)
+
 
 
