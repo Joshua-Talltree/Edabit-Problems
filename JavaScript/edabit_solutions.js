@@ -136,3 +136,40 @@ console.log(points(1, 2), 8)
 console.log(points(2, 1), 7)
 console.log(points(2, 2), 10)
 console.log(points(69, 420), 1398)
+
+// Create a function that returns true when num1 is equal to num2; otherwise return false.
+
+
+function isSameNum(num1, num2) {
+    return num1 === num2;
+}
+
+console.log(isSameNum(4, 8), false)
+console.log(isSameNum(2, 2), true)
+console.log(isSameNum(0, 6), false)
+console.log(isSameNum(2, "2"), false)
+
+// Fix the code in the code tab to pass this challenge (only syntax errors). Look at the examples below to get an idea of what the function should do.
+
+function squared(b) {
+    return (b * b);
+}
+
+console.log(squared(10), 100, "Expected 100")
+console.log(squared(69), 4761, "Expected 4761")
+console.log(squared(666), 443556, "Expected 443556")
+console.log(squared(-21), 441, "Expected 441")
+console.log(squared(21), 441, "Expected 441")
+
+// Create a function that takes a number as its only argument and returns true if it's less than or equal to zero, otherwise return false.
+
+function lessThanOrEqualToZero(num) {
+    return num <= 0;
+}
+
+console.log(lessThanOrEqualToZero(5), false)
+console.log(lessThanOrEqualToZero(0), true)
+console.log(lessThanOrEqualToZero(-5), true)
+
+
+
